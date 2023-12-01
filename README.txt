@@ -1,30 +1,30 @@
-Team 10
 Routing Information Protocol(RIP) version 2
 
-1.Shobika K M	3122215001101
-2.Vaidhegi D	3122215001118
-3.Rajasekar S	3122215001076
-4.Pranes S	3122215001309
+1. Krithik Sathya M	–	3122	21	5001	046
+2. Karthik Vijayakumar	–	3122	21	5001	040
+3. Manickam PA	–	3122	21	5001	049
+4. Naveed Buhari	–	3122	21	5001	058
 
 Requirements:-
 1.	Cisco packet tracer
 
 Configuration:-
 
-1.Access the router's command-line interface. 2.Configure the necessary interfaces with appropriate IP addresses. For example:
+1. Access the router's command-line interface. 
+2. Configure the necessary interfaces with appropriate IP addresses. For example:
 For Router 0:
 interface Serial0/0
-ip address 192.168.1.1 255.255.255.0
+IP address 192.168.1.1 255.255.255.0
 no shutdown exit
 interface FastEthernet0/0
-ip address 192.168.101.1 255.255.0.0
+IP address 192.168.101.1 255.255.0.0
 no shutdown exit
 For Router 1:
 interface Serial0/0
-ip address 192.168.1.2 255.255.255.0
+IP address 192.168.1.2 255.255.255.0
 no shutdown exit
 interface FastEthernet0/0
-ip address 192.168.100.1 255.255.0.0
+IP address 192.168.100.1 255.255.0.0
 no shutdown exit
 
 
@@ -33,7 +33,7 @@ no shutdown exit
 
 Usage:-
 
-Make sure the WIC-1T is attached, router is powered on and connected to the network. The RIP version 2 should now be in effect.
+Make sure that the WIC-1T is attached, the router is powered on and connected to the network. The RIP version 2 should now be in effect.
 
 Connectivity Testing:-
 
